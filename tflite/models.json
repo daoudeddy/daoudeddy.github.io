@@ -23,7 +23,7 @@
   {
     "model": "yolov5s-320",
     "inputSize": 320,
-    "url": "models/yolov5d-320.tflite",
+    "url": "models/yolov5s-320.tflite",
     "type": "yolo",
     "classes": "classes/coco.txt"
   },
