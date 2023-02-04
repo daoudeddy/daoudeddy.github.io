@@ -14,10 +14,38 @@
     "classes": "classes/coco.txt"
   },
   {
+    "model": "yolov5n-320",
+    "inputSize": 320,
+    "url": "models/yolov5n-320.tflite",
+    "type": "yolo",
+    "classes": "classes/coco.txt"
+  },
+  {
+    "model": "yolov5s-320",
+    "inputSize": 320,
+    "url": "models/yolov5d-320.tflite",
+    "type": "yolo",
+    "classes": "classes/coco.txt"
+  },
+  {
     "model": "ssd_mobilenet",
     "inputSize": 1,
     "url": "models/ssd_mobilenet.tflite",
     "type": "default",
+    "classes": "classes/mobilenet.txt"
+  },
+  {
+    "model": "efficientdet_lite2.tflite",
+    "inputSize": 1,
+    "url": "models/efficientdet_lite2.tflite",
+    "type": "default",
+    "classes": "classes/mobilenet.txt"
+  },
+  {
+    "model": "deeplabv3.tflite",
+    "inputSize": 1,
+    "url": "models/deeplabv3.tflite",
+    "type": "segment",
     "classes": "classes/mobilenet.txt"
   }
 ]
