@@ -35,14 +35,14 @@
     "classes": "classes/mobilenet.txt"
   },
   {
-    "model": "efficientdet_lite2.tflite",
+    "model": "efficientdet_lite2",
     "inputSize": 1,
     "url": "models/efficientdet_lite2.tflite",
     "type": "default",
     "classes": "classes/mobilenet.txt"
   },
   {
-    "model": "deeplabv3.tflite",
+    "model": "deeplabv3",
     "inputSize": 1,
     "url": "models/deeplabv3.tflite",
     "type": "segment",
