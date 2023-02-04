@@ -1,0 +1,9 @@
+[
+  {
+    "model": "yolov5n",
+    "inputSize": 640,
+    "url": "models/yolov5n.tflite",
+    "type": "yolo",
+    "classes": "classes/coco.txt"
+  }
+]
