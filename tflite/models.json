@@ -5,5 +5,19 @@
     "url": "models/yolov5n.tflite",
     "type": "yolo",
     "classes": "classes/coco.txt"
+  },
+  {
+    "model": "yolov5s",
+    "inputSize": 640,
+    "url": "models/yolov5s.tflite",
+    "type": "yolo",
+    "classes": "classes/coco.txt"
+  },
+  {
+    "model": "ssd_mobilenet",
+    "inputSize": 1,
+    "url": "models/ssd_mobilenet.tflite",
+    "type": "default",
+    "classes": "classes/mobilenet.txt"
   }
 ]
