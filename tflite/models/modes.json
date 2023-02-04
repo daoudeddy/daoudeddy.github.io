@@ -1,7 +1,0 @@
-{
-  "model": "yolov5n",
-  "inputSize": 320,
-  "url": "url",
-  "type": "yolo",
-  "classes": "url"
-}
